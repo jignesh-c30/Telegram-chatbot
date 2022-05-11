@@ -1,0 +1,82 @@
+2022-05-11 09:33:12,187 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001CD2C0F76C0>
+2022-05-11 09:33:12,187 - apscheduler.scheduler - INFO - Scheduler started
+2022-05-11 09:33:12,187 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-05-11 09:33:12,187 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-05-11 09:33:12,187 - telegram.bot - DEBUG - Entering: get_me
+2022-05-11 09:33:12,867 - telegram.bot - DEBUG - {'is_bot': True, 'id': 1942062362, 'first_name': 'GEC Rajkot Bot', 'username': 'Gec_Rajkot_bot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2022-05-11 09:33:12,867 - telegram.bot - DEBUG - Exiting: get_me
+2022-05-11 09:33:12,867 - telegram.ext.updater - DEBUG - Bot:1942062362:dispatcher - started
+2022-05-11 09:33:12,867 - telegram.ext.updater - DEBUG - Bot:1942062362:updater - started
+2022-05-11 09:33:12,867 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2022-05-11 09:33:12,867 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2022-05-11 09:33:12,867 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2022-05-11 09:33:12,867 - telegram.ext.updater - DEBUG - Deleting webhook
+2022-05-11 09:33:12,867 - telegram.bot - DEBUG - Entering: delete_webhook
+2022-05-11 09:33:12,867 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2022-05-11 09:33:13,066 - telegram.bot - DEBUG - True
+2022-05-11 09:33:13,066 - telegram.bot - DEBUG - Exiting: delete_webhook
+2022-05-11 09:33:13,066 - telegram.ext.updater - DEBUG - Bootstrap done
+2022-05-11 09:33:13,066 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2022-05-11 09:33:13,066 - telegram.bot - DEBUG - Entering: get_updates
+2022-05-11 09:33:23,212 - telegram.bot - DEBUG - No new updates found.
+2022-05-11 09:33:23,212 - telegram.bot - DEBUG - []
+2022-05-11 09:33:23,212 - telegram.bot - DEBUG - Exiting: get_updates
+2022-05-11 09:33:23,212 - telegram.bot - DEBUG - Entering: get_updates
+2022-05-11 09:33:33,489 - telegram.bot - DEBUG - No new updates found.
+2022-05-11 09:33:33,489 - telegram.bot - DEBUG - []
+2022-05-11 09:33:33,489 - telegram.bot - DEBUG - Exiting: get_updates
+2022-05-11 09:33:33,489 - telegram.bot - DEBUG - Entering: get_updates
+2022-05-11 09:33:42,746 - telegram.bot - DEBUG - Getting updates: [670646704]
+2022-05-11 09:33:42,746 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001CD2C0F67C0>]
+2022-05-11 09:33:42,746 - telegram.bot - DEBUG - Exiting: get_updates
+2022-05-11 09:33:42,746 - telegram.bot - DEBUG - Entering: get_updates
+2022-05-11 09:33:42,746 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'channel_chat_created': False, 'group_chat_created': False, 'photo': [], 'supergroup_chat_created': False, 'text': '/start', 'message_id': 342, 'new_chat_members': [], 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 6}], 'new_chat_photo': [], 'delete_chat_photo': False, 'caption_entities': [], 'date': 1652241822, 'chat': {'type': 'private', 'first_name': 'Graphical Geeks', 'id': 1837045613}, 'from': {'language_code': 'en', 'is_bot': False, 'id': 1837045613, 'first_name': 'Graphical Geeks'}}, 'update_id': 670646704}
+2022-05-11 09:33:42,746 - telegram.bot - DEBUG - Entering: send_message
+2022-05-11 09:33:43,584 - telegram.bot - DEBUG - {'channel_chat_created': False, 'group_chat_created': False, 'photo': [], 'supergroup_chat_created': False, 'text': 'Welcome to GEC Rajkot bot!', 'message_id': 343, 'new_chat_members': [], 'entities': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'caption_entities': [], 'date': 1652241823, 'chat': {'type': 'private', 'first_name': 'Graphical Geeks', 'id': 1837045613}, 'from': {'is_bot': True, 'id': 1942062362, 'first_name': 'GEC Rajkot Bot', 'username': 'Gec_Rajkot_bot'}}
+2022-05-11 09:33:43,584 - telegram.bot - DEBUG - Exiting: send_message
+2022-05-11 09:33:43,584 - telegram.bot - DEBUG - Entering: send_message
+2022-05-11 09:33:43,998 - telegram.bot - DEBUG - {'channel_chat_created': False, 'group_chat_created': False, 'photo': [], 'supergroup_chat_created': False, 'text': 'What you can get ???\n\n    -> Study Material\n    -> Previous year Questions paper', 'message_id': 344, 'new_chat_members': [], 'entities': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'caption_entities': [], 'date': 1652241823, 'chat': {'type': 'private', 'first_name': 'Graphical Geeks', 'id': 1837045613}, 'from': {'is_bot': True, 'id': 1942062362, 'first_name': 'GEC Rajkot Bot', 'username': 'Gec_Rajkot_bot'}}
+2022-05-11 09:33:43,998 - telegram.bot - DEBUG - Exiting: send_message
+2022-05-11 09:33:43,998 - telegram.bot - DEBUG - Entering: send_message
+2022-05-11 09:33:44,326 - telegram.bot - DEBUG - {'channel_chat_created': False, 'group_chat_created': False, 'photo': [], 'supergroup_chat_created': False, 'text': 'For help Enter /botInfo', 'message_id': 345, 'new_chat_members': [], 'entities': [{'offset': 15, 'type': 'bot_command', 'length': 8}], 'new_chat_photo': [], 'delete_chat_photo': False, 'caption_entities': [], 'date': 1652241824, 'chat': {'type': 'private', 'first_name': 'Graphical Geeks', 'id': 1837045613}, 'from': {'is_bot': True, 'id': 1942062362, 'first_name': 'GEC Rajkot Bot', 'username': 'Gec_Rajkot_bot'}}
+2022-05-11 09:33:44,326 - telegram.bot - DEBUG - Exiting: send_message
+2022-05-11 09:33:44,326 - telegram.bot - DEBUG - Entering: send_message
+2022-05-11 09:33:44,712 - telegram.bot - DEBUG - {'channel_chat_created': False, 'group_chat_created': False, 'photo': [], 'supergroup_chat_created': False, 'text': 'Enter /department', 'message_id': 346, 'new_chat_members': [], 'entities': [{'offset': 6, 'type': 'bot_command', 'length': 11}], 'new_chat_photo': [], 'delete_chat_photo': False, 'caption_entities': [], 'date': 1652241824, 'chat': {'type': 'private', 'first_name': 'Graphical Geeks', 'id': 1837045613}, 'from': {'is_bot': True, 'id': 1942062362, 'first_name': 'GEC Rajkot Bot', 'username': 'Gec_Rajkot_bot'}}
+2022-05-11 09:33:44,712 - telegram.bot - DEBUG - Exiting: send_message
+2022-05-11 09:33:53,004 - telegram.bot - DEBUG - No new updates found.
+2022-05-11 09:33:53,004 - telegram.bot - DEBUG - []
+2022-05-11 09:33:53,004 - telegram.bot - DEBUG - Exiting: get_updates
+2022-05-11 09:33:53,004 - telegram.bot - DEBUG - Entering: get_updates
+2022-05-11 09:34:03,152 - telegram.bot - DEBUG - No new updates found.
+2022-05-11 09:34:03,152 - telegram.bot - DEBUG - []
+2022-05-11 09:34:03,152 - telegram.bot - DEBUG - Exiting: get_updates
+2022-05-11 09:34:03,152 - telegram.bot - DEBUG - Entering: get_updates
+2022-05-11 09:34:05,854 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-05-11 09:34:05,854 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-05-11 09:34:05,854 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-05-11 09:34:05,854 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-05-11 09:34:05,854 - telegram.ext.updater - DEBUG - Stopping Updater and Dispatcher...
+2022-05-11 09:34:05,854 - telegram.ext.updater - DEBUG - Requesting Dispatcher to stop...
+2022-05-11 09:34:05,901 - telegram.ext.dispatcher - DEBUG - orderly stopping
+2022-05-11 09:34:05,901 - telegram.ext.dispatcher - DEBUG - Dispatcher thread stopped
+2022-05-11 09:34:05,901 - telegram.ext.updater - DEBUG - Bot:1942062362:dispatcher - ended
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 1/4 to end
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:1942062362:worker:a463e1ae-026e-415b-bc4b-141f73f6fb81_0/4
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:1942062362:worker:a463e1ae-026e-415b-bc4b-141f73f6fb81_1/4
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:1942062362:worker:a463e1ae-026e-415b-bc4b-141f73f6fb81_2/4
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:1942062362:worker:a463e1ae-026e-415b-bc4b-141f73f6fb81_3/4
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - async thread 1/4 has ended
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 2/4 to end
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - async thread 2/4 has ended
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 3/4 to end
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - async thread 3/4 has ended
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 4/4 to end
+2022-05-11 09:34:05,960 - telegram.ext.dispatcher - DEBUG - async thread 4/4 has ended
+2022-05-11 09:34:05,960 - telegram.ext.updater - DEBUG - Waiting for Bot:1942062362:dispatcher thread to end
+2022-05-11 09:34:05,960 - telegram.ext.updater - DEBUG - Bot:1942062362:dispatcher thread has ended
+2022-05-11 09:34:05,960 - telegram.ext.updater - DEBUG - Waiting for Bot:1942062362:updater thread to end
+2022-05-11 09:34:13,383 - telegram.bot - DEBUG - No new updates found.
+2022-05-11 09:34:13,383 - telegram.bot - DEBUG - []
+2022-05-11 09:34:13,383 - telegram.bot - DEBUG - Exiting: get_updates
+2022-05-11 09:34:13,383 - telegram.ext.updater - DEBUG - Bot:1942062362:updater - ended
+2022-05-11 09:34:13,383 - telegram.ext.updater - WARNING - Exiting immediately!
